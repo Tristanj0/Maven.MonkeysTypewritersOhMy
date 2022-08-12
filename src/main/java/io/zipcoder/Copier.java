@@ -20,9 +20,6 @@ public abstract class Copier implements Runnable {
     Random random = new Random();
 
     public void run() {
-    }
-
-    {
         try {
             while (stringIterator.hasNext()) {
                 String tempString = stringIterator.next() + " ";
